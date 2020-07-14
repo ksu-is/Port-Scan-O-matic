@@ -1,8 +1,8 @@
 import nmap 
 
 #  range of ports to be scanned 
-begin = 75
-end = 81
+begin = input("input port to start scan at: ")
+end = input("input port to end scan at: ")
 
 #  target ip to be scanned to 
 
