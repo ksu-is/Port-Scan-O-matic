@@ -6,7 +6,7 @@ end = 81
 
 #  target ip to be scanned to 
 
-target = '192.168.1.100'
+target = input()
 
 scanner = nmap.PortScanner() 
 
