@@ -13,3 +13,4 @@
 - [x] edit and update code 
 - [ ] get more system info 
 - [ ] get hostname
+- [ ] add GUI
