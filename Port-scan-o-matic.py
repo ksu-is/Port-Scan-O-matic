@@ -19,3 +19,4 @@ for i in range(begin,end+1):
 	res = res['scan'][target]['tcp'][i]['state'] 
 
 	print(f'port {i} is {res}.') 
+print( "end of scan to scan more ports increase range or do another scan with a different range")
