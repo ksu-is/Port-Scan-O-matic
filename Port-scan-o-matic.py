@@ -1,12 +1,12 @@
 import nmap 
 
 #  range of ports to be scanned 
-begin = input("input port to start scan at: ")
-end = input("input port to end scan at: ")
+begin = int(input("input port between 1-65,535 to start port scan at: "))
+end = int(input("input port between 1-65,535 to end port scan at: "))
 
 #  target ip to be scanned to 
 
-target = input("Input an Ip address to scan for ports: ")
+target = input("Input an IP address to scan for open ports: ")
 
 scanner = nmap.PortScanner() 
 
@@ -19,4 +19,4 @@ for i in range(begin,end+1):
 	res = res['scan'][target]['tcp'][i]['state'] 
 
 	print(f'port {i} is {res}.') 
-print( "end of scan to scan more ports increase range or do another scan with a different range")
+print( "end of scan, to scan more ports increase port range or do a different scan with a different range")
