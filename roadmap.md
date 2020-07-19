@@ -11,6 +11,7 @@
 - [x] Look through code 
 - [x] add port scanning
 - [x] edit and update code 
-- [ ] get more system info 
-- [ ] get hostname
-- [ ] add GUI
+- [x] add GUI
+- [ ] edit code in GUI
+- [ ] test code in GUI
+- [ ] Update code make sure it runs smoothly
