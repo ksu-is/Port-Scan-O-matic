@@ -6,3 +6,8 @@
 
 >I Have also included a link to another project Grephenex that helps you to harden your system (https://github.com/grapheneX/grapheneX)
 Here is also another link to a GUI port scanner with Python (https://github.com/nyholmniklas/scanopy)
+
+below are interesting links that Helped me to complete this Application 
+https://www.geeksforgeeks.org/port-scanner-using-python-nmap/
+https://www.studytonight.com/network-programming-in-python/integrating-port-scanner-with-nmap
+https://nitratine.net/blog/post/python-guis-with-pyqt/#using-the-designer
