@@ -12,6 +12,6 @@
 - [x] add port scanning
 - [x] edit and update code 
 - [x] add GUI
-- [ ] edit code in GUI
-- [ ] test code in GUI
-- [ ] Update code make sure it runs smoothly
+- [x] edit code in GUI
+- [x] test code in GUI
+- [x] Update code make sure it runs smoothly
