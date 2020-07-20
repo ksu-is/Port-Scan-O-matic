@@ -61,8 +61,10 @@ class Ui_MainWindow(object):
         self.lineEdit.clear()
         scanner = nmap.PortScanner()
 
-        scanner.scan(ip,"1-1024","-vv")
-        self.textBrowser.setText(str(scanner.scaninfo()) + str(scanner.csv())) 
+        scanner.scan(ip,"1-65535","-v")
+       
+        self.textBrowser.setText( str(scanner.scaninfo())  + str(scanner.csv())) 
+        
 
 
 
